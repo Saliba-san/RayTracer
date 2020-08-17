@@ -6,7 +6,10 @@ This was a small project just to learn how Ray Tracing works. It's based on Pete
 
 ### Parameters
 
-The most interesting parameters to modify are the first variables in main(), "comp" is the width of the image; "alt" is the height; "samplesPorPixel" (this is an intersting one) is the number of rays shot per pixel of the image, increasing this number makes the program take longer to execute, but, it makes the quality better, although with lower samples per pixel you can get really cool and interesting images; and "profundidade" is how many bounces a ray can do. 
+The most interesting parameters to modify are the first variables in main(), "comp" is the width of the image; "alt" is the height; "samplesPorPixel" (this is an intersting one) is the number of rays shot per pixel of the image, increasing this number makes the program take longer to execute, but, it makes the quality better, although with lower samples per pixel you can get really cool and interesting images; and "profundidade" is how many bounces a ray can do.
+![alt text](https://github.com/Saliba-san/RayTracer/blob/Master/progress/marblessphere.png?raw=true)
+![alt text](https://github.com/Saliba-san/RayTracer/blob/Master/progress/doido2.png?raw=true)
+
 
 ### Camera Parameters
 
