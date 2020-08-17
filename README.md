@@ -8,11 +8,14 @@ This was a small project just to learn how Ray Tracing works. It's based on Pete
 
 The most interesting parameters to modify are the first variables in main(), "comp" is the width of the image; "alt" is the height; "samplesPorPixel" (this is an intersting one) is the number of rays shot per pixel of the image, increasing this number makes the program take longer to execute, but, it makes the quality better, although with lower samples per pixel you can get really cool and interesting images; and "profundidade" is how many bounces a ray can do.
 
-Image with a lot of samples per pixel:
+Images with a lot of samples per pixel:
 ![High samplesPorPixel](progress/marblessphere.png?raw=true)
+![High final samplesPorPixel](progress/ScShot.png?raw=true)
 
-Image with a few samples per pixel:
+
+Images with a few samples per pixel:
 ![Low samplesPorPixel](progress/doido2.png?raw=true)
+![Low final samplesPorPixel](progress/darkfull2.png?raw=true)
 
 
 ### Camera Parameters
@@ -43,4 +46,9 @@ Above is a compilation using g++ to a file called RayTracer using multiple CPUs 
 ```bash
 ./RayTracer > image.ppm
 ```
+
+## Some other C O O L images
+
+![cornelbox](progress/rotated.png?raw=true)
+![final](progress/final\ thread.png?raw=true)
 
