@@ -50,5 +50,5 @@ Above is a compilation using g++ to a file called RayTracer using multiple CPUs 
 ## Some other C O O L images
 
 ![cornelbox](progress/rotated.png?raw=true)
-![final](progress/final\ thread.png?raw=true)
+![final](progress/final%20thread.png?raw=true)
 
